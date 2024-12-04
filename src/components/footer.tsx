@@ -1,6 +1,5 @@
 import { Container } from "@/components/container";
 import Link from "next/link";
-import Logo from "./logo";
 
 export async function Footer({
   links,

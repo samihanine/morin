@@ -6,5 +6,6 @@ export default async function Page({
   }>;
 }) {
   const { service } = await params;
+  console.log(service);
   return <></>;
 }

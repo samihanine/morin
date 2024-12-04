@@ -1,10 +1,10 @@
-import { Phone, Play } from "lucide-react";
-
+import { Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import Link from "next/link";
 import { Container } from "./container";
-import Image from "next/image";
 import ContactImage from "/public/images/contact.jpg";
+
 const Cta = () => {
   return (
     <Container className="py-20">
